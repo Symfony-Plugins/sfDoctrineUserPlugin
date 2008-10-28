@@ -1,0 +1,1 @@
+<?php include_partial('ajaxList', array('sf_user_user' => $sf_user_user)); ?>

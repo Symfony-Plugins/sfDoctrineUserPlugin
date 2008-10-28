@@ -1,0 +1,547 @@
+sfUserState:
+  ALABAMA:
+    name: ALABAMA
+    abbreviation: AL
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  ALASKA:
+    name: ALASKA
+    abbreviation:  AK
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  AMERICANSAMOA:
+    name: AMERICAN SAMOA
+    abbreviation: AS
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  ARIZONA:
+    name: ARIZONA
+    abbreviation: AZ
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  ARKANSAS:
+    name: ARKANSAS
+    abbreviation: AR
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  CALIFORNIA:
+    name: CALIFORNIA
+    abbreviation: CA
+    Country: UnitedStates
+    display: true
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  COLORADO:
+    name: COLORADO
+    abbreviation: CO
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  CONNECTICUT:
+    name: CONNECTICUT
+    abbreviation: CT
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  DELAWARE:
+    name: DELAWARE
+    abbreviation: DE
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  DISTRICTOFCOLUMBIA:
+    name: DISTRICT OF COLUMBIA
+    abbreviation: DC
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  FEDERATEDSTATESOFMICRONESIA:
+    name: FEDERATED STATES OF MICRONESIA
+    abbreviation: FM
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  FLORIDA:
+    name: FLORIDA
+    abbreviation: FL
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  GEORGIA:
+    name: GEORGIA
+    abbreviation: GA
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  GUAM:
+    name: GUAM
+    abbreviation: GU
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  HAWAII:
+    name: HAWAII
+    abbreviation:  HI
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  IDAHO:
+    name: IDAHO
+    abbreviation: ID
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  ILLINOIS:
+    name: ILLINOIS
+    abbreviation: IL
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  INDIANA:
+    name: INDIANA
+    abbreviation: IN
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  IOWA:
+    name: IOWA
+    abbreviation: IA
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  KANSAS:
+    name: KANSAS
+    abbreviation:  KS
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  KENTUCKY:
+    name: KENTUCKY
+    abbreviation: KY
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  LOUISIANA:
+    name: LOUISIANA
+    abbreviation: LA
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  MAINE:
+    name: MAINE
+    abbreviation: ME
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  MARSHALLISLANDS:
+    name: MARSHALL ISLANDS
+    abbreviation: MH
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  MARYLAND:
+    name: MARYLAND
+    abbreviation: MD
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  MASSACHUSETTS:
+    name: MASSACHUSETTS
+    abbreviation: MA
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  MICHIGAN:
+    name: MICHIGAN
+    abbreviation: MI
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  MINNESOTA:
+    name: MINNESOTA
+    abbreviation: MN
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  MISSISSIPPI:
+    name: MISSISSIPPI
+    abbreviation: MS
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  MISSOURI:
+    name: MISSOURI
+    abbreviation: MO
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  MONTANA:
+    name: MONTANA
+    abbreviation: MT
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  NEBRASKA:
+    name: NEBRASKA
+    abbreviation: NE
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  NEVADA:
+    name: NEVADA
+    abbreviation:  NV
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  NEWHAMPSHIRE:
+    name: NEW HAMPSHIRE
+    abbreviation: NH
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  NEWJERSEY:
+    name: NEW JERSEY
+    abbreviation: NJ
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  NEWMEXICO:
+    name: NEW MEXICO
+    abbreviation: NM
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  NEWYORK:
+    name: NEW YORK
+    abbreviation: NY
+    Country: UnitedStates
+    display: true
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  NORTHCAROLINA:
+    name: NORTH CAROLINA
+    abbreviation: NC
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  NORTHDAKOTA:
+    name: NORTH DAKOTA
+    abbreviation: ND
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  NORTHERNMARIANAISLANDS:
+    name: NORTHERN MARIANA ISLANDS
+    abbreviation: MP
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  OHIO:
+    name: OHIO
+    abbreviation: OH
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  OKLAHOMA:
+    name: OKLAHOMA
+    abbreviation: OK
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  OREGON:
+    name: OREGON
+    abbreviation: OR
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  PALAU:
+    name: PALAU
+    abbreviation: PW
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  PENNSYLVANIA:
+    name: PENNSYLVANIA
+    abbreviation: PA
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  PUERTORICO:
+    name: PUERTO RICO
+    abbreviation: PR
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  RHODEISLAND:
+    name: RHODE ISLAND
+    abbreviation: RI
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  SOUTHCAROLINA:
+    name: SOUTH CAROLINA
+    abbreviation: SC
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  SOUTHDAKOTA:
+    name: SOUTH DAKOTA
+    abbreviation: SD
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  TENNESSEE:
+    name: TENNESSEE
+    abbreviation: TN
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  TEXAS:
+    name: TEXAS
+    abbreviation: TX
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  UTAH:
+    name: UTAH
+    abbreviation: UT
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  VERMONT:
+    name: VERMONT
+    abbreviation: VT
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  VIRGINISLANDS:
+    name: VIRGIN ISLANDS
+    abbreviation: VI
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  VIRGINIA:
+    name: VIRGINIA
+    abbreviation: VA
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  WASHINGTON:
+    name: WASHINGTON
+    abbreviation: WA
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  WESTVIRGINIA:
+    name: WEST VIRGINIA
+    abbreviation: WV
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  WISCONSIN:
+    name: WISCONSIN
+    abbreviation: WI
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  WYOMING:
+    name: WYOMING
+    abbreviation: WY
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  ArmedForcesAfrica:
+    name: Armed Forces Africa
+    abbreviation: AE
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  ArmedForcesAmericas:
+    name: Armed Forces Americas
+    abbreviation: AA
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  ArmedForcesCanada:
+    name: Armed Forces Canada
+    abbreviation: AE
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  ArmedForcesEurope:
+    name: Armed Forces Europe
+    abbreviation: AE
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  ArmedForcesMiddleEast:
+    name: Armed Forces Middle East
+    abbreviation: AE
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  ArmedForcesPacific:
+    name: Armed Forces Pacific
+    abbreviation: AP
+    Country: UnitedStates
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  ALBERTA:
+    name: ALBERTA
+    abbreviation: AB
+    Country: Canada
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  BRITISHCOLUMBIA:
+    name: BRITISH COLUMBIA
+    abbreviation: BC
+    Country: Canada
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  MANITOBA:
+    name: MANITOBA
+    abbreviation: MB
+    Country: Canada
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  NEWBRUNSWICK:
+    name: NEW BRUNSWICK
+    abbreviation: NB
+    Country: Canada
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  NEWFOUNDLANDANDLABRADOR:
+    name: NEWFOUNDLAND AND LABRADOR
+    abbreviation: NL
+    Country: Canada
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  NOVASCOTIA:
+    name: Nova  Scotia
+    abbreviation: NS
+    Country: Canada
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  NORTHWESTTERRITORIES:
+    name: NORTHWEST TERRITORIES
+    abbreviation: NT
+    Country: Canada
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  NUNAVUT:
+    name: NUNAVUT
+    abbreviation: NU
+    Country: Canada
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  ONTARIO:
+    name: ONTARIO
+    abbreviation: ON
+    Country: Canada
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  PRINCEEDWARDISLAND:
+    name: PRINCE EDWARD ISLAND
+    abbreviation: PE
+    Country: Canada
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  QUEBEC:
+    name: QUEBEC
+    abbreviation: QC
+    Country: Canada
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  SASKATCHEWAN:
+    name: SASKATCHEWAN
+    abbreviation: SK
+    Country: Canada
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  YUKON:
+    name: YUKON
+    abbreviation: YT
+    Country: Canada
+    display: false
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser

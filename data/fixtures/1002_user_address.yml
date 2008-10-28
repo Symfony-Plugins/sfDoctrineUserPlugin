@@ -1,0 +1,25 @@
+sfUserAddress:
+  DefaultUserAddress:
+    User: DefaultUser
+    AddressType: AddressHome
+    address1: 123 Street Place
+    address2: Building 2
+    address3: Apt. 123
+    city: New York
+    State: NEWYORK
+    zip: 12345
+    rank: 1
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  DefaultUserAddress2:
+    User: DefaultUser
+    AddressType: AddressHome
+    address1: 456 Street Drive
+    address2: Building 5
+    address3: Apt. 123
+    city: New York
+    State: CALIFORNIA
+    zip: 12345
+    rank: 2
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser

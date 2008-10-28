@@ -1,0 +1,64 @@
+sfUserAddress:
+  tableName:                sf_user_address
+  package:                  sfDoctrineUserPlugin.lib.model.doctrine
+  actAs:
+    Timestampable:
+    Userstampable:
+  columns:
+    id:
+      type: integer
+      length: 4
+      primary: true
+      autoincrement: true
+    user_id:
+      type: integer
+      length: 4
+    address_type_id:
+      type: integer
+      length: 4
+    address1:
+      type: string
+      length: 45
+    address2:
+      type: string
+      length: 45
+    address3:
+      type: string
+      length: 45
+    city:
+      type: string
+      length: 45
+    state_id:
+      type: integer
+      length: 4
+    zip:
+      type: string
+      length: 10
+    rank:
+      type: integer
+      length: 2
+      default: 1
+    deleted_at:
+      type:                 timestamp
+    deleted_by_user_id:
+      type: integer
+      length: 4
+  relations:
+    User:
+      class: sfUserUser
+      foreignAlias: Addresses
+      local: user_id
+      foreign: id
+    AddressType:
+      class: sfUserAddressType
+      local: address_type_id
+      foreign: id
+    State:
+      class: sfUserState
+      local: state_id
+      foreign: id
+    DeletedBy:
+      class: sfUserUser
+      local: deleted_by_user_id
+      foreign: id
+      foreignAlias: sfUserAddressDeletedBy

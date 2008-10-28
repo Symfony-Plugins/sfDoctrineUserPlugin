@@ -1,0 +1,42 @@
+generator:
+  class:              sfDoctrineAdminGenerator
+  param:
+    model_class:      sfUserBilling
+    theme:            default
+      
+    fields:
+      updated_at: { type: plain, params: date_format='MM/dd/yy hh:mm a' }
+      UpdatedBy: { type: plain }
+      created_at: { type: plain, params: date_format='MM/dd/yy hh:mm a' }
+      CreatedBy: { type: plain }
+      
+    list:
+      title: Billings for Users
+      display: [ User, rank, name, address1, city, state, method, CreditCardType.abbreviation, check_type ]
+      object_actions:
+        _edit:    -
+        _delete:  -
+      actions:
+        _create:  { name: Add Address }
+      sort_by:    [ sfUserUser, asc ]
+      
+    edit:
+      title: Editing Billing For "%%User%%"
+      display:
+        "Details":  [ _User, rank, name, address1, address2, city, state, zip, method, rejects ]
+        "Credit Card": [ credit_card_number, credit_card_exp_month, credit_card_exp_year, credit_card_cvm ]
+        "Check": [ check_type, check_number, check_routing_number, check_account_number, check_bank_name, check_branch_state, dl_number, dl_state ]
+        "NONE":     [ updated_at, UpdatedBy, created_at, CreatedBy ]
+      fields:
+        check_type:
+          params:
+            disabled=true
+            date_format='MM/dd/yy'
+            include_blank=true
+            include_custom=Choose from the list
+      actions:
+          _save: -
+          _save_and_add: -
+          _save_and_list: -
+          _list: -
+          _delete: -

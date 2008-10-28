@@ -1,0 +1,187 @@
+## Configuration Tables
+sfUserPhoneType:
+  tableName:                sf_user_phone_type
+  package:                  sfDoctrineUserPlugin.lib.model.doctrine
+  actAs:
+    Timestampable:
+    Userstampable:
+  columns:
+    id:
+      type: integer
+      length: 4
+      primary: true
+      autoincrement: true
+    name:
+      type: string
+      length: 20
+    deleted_at:
+      type:                 timestamp
+    deleted_by_user_id:
+      type: integer
+      length: 4
+  relations:
+    DeletedBy:
+      class: sfUserUser
+      local: deleted_by_user_id
+      foreign: id
+      foreignAlias: sfUserPhoneTypeDeletedBy
+
+sfUserAddressType:
+  tableName:                sf_user_address_type
+  package:                  sfDoctrineUserPlugin.lib.model.doctrine
+  actAs:
+    Timestampable:
+    Userstampable:
+  columns:
+    id:
+      type: integer
+      length: 4
+      primary: true
+      autoincrement: true
+    name:
+      type: string
+      length: 20
+    deleted_at:
+      type:                 timestamp
+    deleted_by_user_id:
+      type: integer
+      length: 4
+  relations:
+    DeletedBy:
+      class: sfUserUser
+      local: deleted_by_user_id
+      foreign: id
+      foreignAlias: sfUserAddressTypeDeletedBy
+
+sfUserImAccountType:
+  tableName:                sf_user_im_account_type
+  package:                  sfDoctrineUserPlugin.lib.model.doctrine
+  actAs:
+    Timestampable:
+    Userstampable:
+  columns:
+    id:
+      type: integer
+      length: 4
+      primary: true
+      autoincrement: true
+    name:
+      type:                 string
+      length:               20
+    deleted_at:
+      type:                 timestamp
+    deleted_by_user_id:
+      type: integer
+      length: 4
+  relations:
+    DeletedBy:
+      class: sfUserUser
+      local: deleted_by_user_id
+      foreign: id
+      foreignAlias: sfUserImAccountTypeDeletedBy
+
+sfUserCreditCardType:
+  tableName:                sf_user_credit_card_type
+  package:                  sfDoctrineUserPlugin.lib.model.doctrine
+  actAs:
+    Timestampable:
+    Userstampable:
+  columns:
+    id:
+      type: integer
+      length: 4
+      primary: true
+      autoincrement: true
+    is_accepted:
+      type:                 boolean
+    code:
+      type:                 string
+      length:                1
+    abbreviation:
+      type:                 string
+      length:               40
+    name:
+      type:                 string
+      length:               20
+    deleted_at:
+      type:                 timestamp
+    deleted_by_user_id:
+      type: integer
+      length: 4
+  relations:
+    DeletedBy:
+      class: sfUserUser
+      local: deleted_by_user_id
+      foreign: id
+      foreignAlias: sfUserCreditCardTypeDeletedBy
+
+sfUserCountry:
+  tableName:                sf_user_country
+  package:                  sfDoctrineUserPlugin.lib.model.doctrine
+  actAs:
+    Timestampable:
+    Userstampable:
+  columns:
+    id:
+      type: integer
+      length: 4
+      primary: true
+      autoincrement: true
+    name:
+      type:                 string
+      length:               45
+    abbreviation:
+      type:                 string
+      length:               2
+    display:
+      type:                 boolean
+    deleted_at:
+      type:                 timestamp
+    deleted_by_user_id:
+      type: integer
+      length: 4
+  relations:
+    DeletedBy:
+      class: sfUserUser
+      local: deleted_by_user_id
+      foreign: id
+      foreignAlias: sfUserCountryDeletedBy
+
+sfUserState:
+  tableName:                sf_user_state
+  package:                  sfDoctrineUserPlugin.lib.model.doctrine
+  actAs:
+    Timestampable:
+    Userstampable:
+  columns:
+    id:
+      type: integer
+      length: 4
+      primary: true
+      autoincrement: true
+    name:
+      type:                 string
+      length:               45
+    abbreviation:
+      type:                 string
+      length:               2
+    country_id:
+      type: integer
+      length: 4
+    display:
+      type:                 boolean
+    deleted_at:
+      type:                 timestamp
+    deleted_by_user_id:
+      type: integer
+      length: 4
+  relations:
+    Country:
+      class: sfUserCountry
+      local: country_id
+      foreign: id
+    DeletedBy:
+      class: sfUserUser
+      local: deleted_by_user_id
+      foreign: id
+      foreignAlias: sfUserStateDeletedBy

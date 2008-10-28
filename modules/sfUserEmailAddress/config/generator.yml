@@ -1,0 +1,33 @@
+generator:
+  class:              sfDoctrineAdminGenerator
+  param:
+    model_class:      sfUserEmailAddress
+    theme:            default
+
+    fields:
+      updated_at: { type: plain, params: date_format='MM/dd/yy hh:mm a' }
+      UpdatedBy: { type: plain }
+      created_at: { type: plain, params: date_format='MM/dd/yy hh:mm a' }
+      CreatedBy: { type: plain }
+      
+    list:
+      title: Email Addresses for Users
+      display: [ User, rank, address ]
+      object_actions:
+        _edit:    -
+        _delete:  -
+      actions:
+        _create:  { name: Add Email Address }
+      sort_by:    [ sfUserUser, asc ]
+      
+    edit:
+      title: Editing Email Address For "%%User%%"
+      display:
+        "Details":  [ _User, rank, address ]
+        "NONE":     [ updated_at, UpdatedBy, created_at, CreatedBy ]
+      actions:
+          _save: -
+          _save_and_add: -
+          _save_and_list: -
+          _list: -
+          _delete: -

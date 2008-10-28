@@ -1,0 +1,34 @@
+generator:
+  class:              sfDoctrineAdminGenerator
+  param:
+    model_class:      sfUserPhone
+    theme:            default
+      
+    fields:
+      updated_at: { type: plain, params: date_format='MM/dd/yy hh:mm a' }
+      UpdatedBy: { type: plain }
+      created_at: { type: plain, params: date_format='MM/dd/yy hh:mm a' }
+      CreatedBy: { type: plain }
+      
+    list:
+      title: Phones for Users
+      display: [ User, rank, PhoneType, number, extension ]
+      object_actions:
+        _edit:    -
+        _delete:  -
+      actions:
+        _create:  { name: Add Phone }
+      sort_by:    [ sfUserUser, asc ]
+
+    edit:
+      title: Editing Phone for User "%%User%%"
+      display:
+        "Details": [_User,  PhoneType, rank, number, extension ]
+        "NONE": [ updated_at, UpdatedBy, created_at, CreatedBy ]
+      fields:
+      actions:
+          _save: -
+          _save_and_add: -
+          _save_and_list: -
+          _list: -
+          _delete: -

@@ -1,0 +1,29 @@
+sfUserCreditCardType:
+  AMEX:
+    is_accepted: true
+    code: A
+    abbreviation: amex
+    name: American Express
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  VISA:
+    is_accepted: true
+    code: V
+    abbreviation: visa
+    name: American Visa
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  MASTERCARD:
+    is_accepted: true
+    code: M
+    abbreviation: mc
+    name: Mastercard
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  DISCOVER:
+    is_accepted: true
+    code: D
+    abbreviation: disc
+    name: Discover
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser

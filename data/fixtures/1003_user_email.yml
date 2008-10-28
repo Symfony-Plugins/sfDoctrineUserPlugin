@@ -1,0 +1,13 @@
+sfUserEmailAddress:
+  DefaultUserEmail:
+    User: DefaultUser
+    address: 'email@aol.com'
+    rank: 1
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  DefaultUserEmail2:
+    User: DefaultUser
+    address: 'email2@aol.com'
+    rank: 2
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser

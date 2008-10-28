@@ -1,0 +1,13 @@
+sfUserAddressType:
+  AddressHome:
+    name: Home
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  AddressBusiness:
+    name: Business
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  AddressPOBox:
+    name: P.O. Box
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser

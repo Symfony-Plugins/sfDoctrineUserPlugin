@@ -1,0 +1,55 @@
+sfUserUser:
+  tableName:                sf_user_user
+  package:                  sfDoctrineUserPlugin.lib.model.doctrine
+  actAs:
+    Timestampable:
+    Userstampable:
+  columns:
+    id:
+      type: integer
+      length: 4
+      primary: true
+      autoincrement: true
+    sf_guard_user_id:
+      type: integer
+      length: 4
+    prefix:
+      type:                 string
+      length:               5
+    first_name:
+      type:                 string
+      length:               20
+      notblank:             true
+    middle_name:
+      type:                 string
+      length:               20
+    last_name:
+      type:                 string
+      length:               20
+      notblank:             true
+    suffix:
+      type:                 string
+      length:               10
+    company:
+      type:                 string
+      length:               45
+    date_of_birth:
+      type:                 date
+      notblank:             true
+    deleted_at:
+      type:                 timestamp
+    deleted_by_user_id:
+      type: integer
+      length: 4
+  relations:
+    sfGuardUser:
+      class: sfGuardUser
+      local: sf_guard_user_id
+      foreign: id
+      foreignAlias: User
+      foreignType: one
+    DeletedBy:
+      class: sfUserUser
+      local: deleted_by_user_id
+      foreign: id
+      foreignAlias: sfUserUserDeletedBy

@@ -1,0 +1,62 @@
+= sfDoctrineUserPlugin =
+
+== About ==
+This plugin provides a starting point for anyone needing a quick full user in any application.  It creates a user which has a sfGuardUser.  This user then has the following properties.
+ * sfGuardUser
+  * Multiple Groups
+  * Multiple permissions
+  * username
+  * password
+ * sfUserUser
+  * Multiple Email Addresses
+  * Multiple Addresses
+  * Multiple Phone Numbers
+  * Multiple Instant Messaging Accounts
+  * Multiple Billing Records
+
+Gives an admin page to edit all properties of a user on one page in a clean fashion through the use of ajax and thickBox
+
+
+== Dependencies ==
+[wiki:sfGuardDoctrinePlugin] sfGuardDoctrinePlugin
+
+== Installation ==
+For all options, execute the commands shown from the root of your project.
+=== Single Export ===
+This means you'll get the files only and you'll not be able to update using subversion[BR]
+{{{
+svn export http://svn.symfony-project.com/plugins/sfDoctrineUserPlugin/branches/1.0 ./plugins/sfDoctrineUserPlugin
+}}}
+=== Single Checkout===
+This means you'll get the files and will manually have to update using subversion[BR]
+{{{
+svn checkout http://svn.symfony-project.com/plugins/sfDoctrineUserPlugin/branches/1.0 ./plugins/sfDoctrineUserPlugin
+}}}
+=== Automatic Checkout ===
+
+If you are already using subversion for your project, and want to automatically include the latest version of this plugin on each svn update, the correct way to include the sfDoctrineUserPlugin repository is to define svn:externals.
+Go to your symfony project
+{{{
+svn propedit svn:externals plugins
+}}}
+
+in this file add a line containing
+{{{
+sfDoctrineUserPlugin http://svn.symfony-project.com/plugins/sfDoctrineUserPlugin/branches/1.0
+}}}
+
+=== Browse Source Code ===
+[http://trac.symfony-project.com/browser/plugins/sfDoctrineUserPlugin sfDoctrineUserPlugin]
+
+== To Use ==
+Edit the applications myUser.class.php of any application you want to be able to access the extended users information
+{{{
+// Default line 3 in /apps/APPLICATION/data/lib/myUser.class.php
+class myUser extends sfBasicSecurityUser
+// New line 3 for user with sfDoctrineUserPlugin
+class myUser extends sfUserSecurityUser
+}}}
+
+
+== Todo ==
+

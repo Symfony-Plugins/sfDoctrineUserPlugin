@@ -1,0 +1,109 @@
+sfUserBilling:
+  tableName:                sf_user_billing
+  package:                  sfDoctrineUserPlugin.lib.model.doctrine
+  actAs:
+    Timestampable:
+    Userstampable:
+  columns:
+    id:
+      type: integer
+      length: 4
+      primary: true
+      autoincrement: true
+    user_id:
+      type: integer
+      length: 4
+    rejects:
+      type: integer
+      length: 2
+    method:
+      type: enum
+      length: 4
+      values: [ CREDIT, VIRTUAL_CHECK, PAPER_CHECK ]
+    name:
+      type: string
+      length: 72
+    address1:
+      type: string
+      length: 48
+    address2:
+      type: string
+      length: 48
+    city:
+      type: string
+      length: 32
+    state:
+      type: string
+      length: 2
+    zip:
+      type: string
+      length: 5
+    credit_card_number:
+      type: string
+      length: 16
+    credit_card_type_id:
+      type: integer
+      length: 4
+    credit_card_exp_month:
+      type: integer
+      length: 2
+    credit_card_exp_year:
+      type: integer
+      length: 4
+    credit_card_cvm:
+      type: integer
+      length: 4
+    check_type:
+      type: enum
+      values: [Personal, Business]
+    check_number:
+      type: string
+      length: 10
+    check_routing_number:
+      type: string
+      length: 9
+    check_account_number:
+      type: string
+      length: 15
+    check_bank_name:
+      type: string
+      length: 35
+    check_ssn:
+      type: string
+      length: 10
+    check_branch_city:
+      type: string
+      length: 32
+    check_branch_state:
+      type: string
+      length: 2
+    dl_number:
+      type: string
+      length: 20
+    dl_state:
+      type: string
+      length: 2
+    rank:
+      type: integer
+      length: 2
+      default: 1
+    deleted_at:
+      type:                 timestamp
+    deleted_by_user_id:
+      type: integer
+      length: 4
+  relations:
+    User:
+      class: sfUserUser
+      foreignAlias: Billings
+      local: user_id
+      foreign: id
+    CreditCardType:
+      class: sfUserCreditCardType
+      local: credit_card_type_id
+      foreign: id
+    DeletedBy:
+      class: sfUserUser
+      local: deleted_by_user_id
+      foreign: id
+      foreignAlias: sfUserBillingDeletedBy

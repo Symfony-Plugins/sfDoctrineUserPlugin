@@ -1,0 +1,37 @@
+generator:
+  class:              sfDoctrineAdminGenerator
+  param:
+    model_class:      sfUserUser
+    theme:            default
+
+    fields:
+      updated_at: { type: plain, params: date_format='MM/dd/yy hh:mm a' }
+      UpdatedBy: { type: plain }
+      created_at: { type: plain, params: date_format='MM/dd/yy hh:mm a' }
+      CreatedBy: { type: plain }
+
+    list:
+      title: Users
+      display: [ first_name, middle_name, last_name, company, date_of_birth, created_at, updated_at ]
+      object_actions:
+          _edit: -
+          _delete: -
+      actions:
+          _create: { name: Add User }
+      sort: [ last_name, asc ]
+      filters: [ last_name, first_name, date_of_birth, updated_at, created_at ]
+      fields:
+        sfGuardUser: { type: plain }
+
+    edit:
+      title: Editing User "%%last_name%%, %%first_name%%"
+      display:
+        "Details": [_sfGuardUser,  prefix, first_name, middle_name, last_name, suffix, company, date_of_birth  ]
+        "NONE": [ updated_at, UpdatedBy, created_at, CreatedBy ]
+      fields:
+      actions:
+          _save: -
+          _save_and_add: -
+          _save_and_list: -
+          _list: -
+          _delete: -

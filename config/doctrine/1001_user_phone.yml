@@ -1,0 +1,48 @@
+sfUserPhone:
+  tableName:                sf_user_phone
+  package:                  sfDoctrineUserPlugin.lib.model.doctrine
+  actAs:
+    Timestampable:
+    Userstampable:
+  columns:
+    id:
+      type: integer
+      length: 4
+      primary: true
+      autoincrement: true
+    user_id:
+      type: integer
+      length: 4
+    phone_type_id:
+      type: integer
+      length: 4
+    number:
+      type: string
+      length: 20
+    extension:
+      type: string
+      length: 10
+    rank:
+      type: integer
+      length: 2
+      default: 1
+    deleted_at:
+      type:                 timestamp
+    deleted_by_user_id:
+      type: integer
+      length: 4
+  relations:
+    User:
+      foreignAlias: Phones
+      class: sfUserUser
+      local: user_id
+      foreign: id
+    PhoneType:
+      class: sfUserPhoneType
+      local: phone_type_id
+      foreign: id
+    DeletedBy:
+      class: sfUserUser
+      local: deleted_by_user_id
+      foreign: id
+      foreignAlias: sfUserPhoneDeletedBy

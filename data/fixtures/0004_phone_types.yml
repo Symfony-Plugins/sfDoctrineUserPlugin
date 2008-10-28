@@ -1,0 +1,11 @@
+sfUserPhoneType:
+  PhoneHome:
+    name: Home
+  PhoneBusiness:
+    name: Business
+  PhoneCell:
+    name: Celluar
+  PhonePager:
+    name: Pager
+  PhoneFax:
+    name: Fax

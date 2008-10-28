@@ -1,0 +1,17 @@
+sfUserPhone:
+  DefaultUserPhone:
+    User: DefaultUser
+    PhoneType: PhoneCell
+    number: '5555555555'
+    extension: 123
+    rank: 1
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  DefaultUserPhone2:
+    User: DefaultUser
+    PhoneType: PhoneHome
+    number: '5555555555'
+    extension: 456
+    rank: 2
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser

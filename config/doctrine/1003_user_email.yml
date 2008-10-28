@@ -1,0 +1,41 @@
+sfUserEmailAddress:
+  tableName:                sf_user_email_address
+  package:                  sfDoctrineUserPlugin.lib.model.doctrine
+  actAs:
+    Timestampable:
+    Userstampable:
+  columns:
+    id:
+      type: integer
+      length: 4
+      primary: true
+      autoincrement: true
+    user_id:
+      type: integer
+      length: 4
+    address:
+      type:                 string
+      length:                 128
+      unique:               true
+      notnull:              true
+      email:                true
+    rank:
+      type: integer
+      length: 2
+      default: 1
+    deleted_at:
+      type:                 timestamp
+    deleted_by_user_id:
+      type: integer
+      length: 4
+  relations:
+    User:
+      class: sfUserUser
+      local: user_id
+      foreign: id
+      foreignAlias: EmailAddresses
+    DeletedBy:
+      class: sfUserUser
+      local: deleted_by_user_id
+      foreign: id
+      foreignAlias: sfUserEmailAddressDeletedBy

@@ -1,0 +1,33 @@
+generator:
+  class:              sfDoctrineAdminGenerator
+  param:
+    model_class:      sfUserAddress
+    theme:            default
+      
+    fields:
+      updated_at: { type: plain, params: date_format='MM/dd/yy hh:mm a' }
+      UpdatedBy: { type: plain }
+      created_at: { type: plain, params: date_format='MM/dd/yy hh:mm a' }
+      CreatedBy: { type: plain }
+      
+    list:
+      title: Addresses for Users
+      display: [ User, rank, AddressType, address1, city, State ]
+      object_actions:
+        _edit:    -
+        _delete:  -
+      actions:
+        _create:  { name: Add Address }
+      sort_by:    [ sfUserUser, asc ]
+      
+    edit:
+      title: Editing Address For "%%User%%"
+      display:
+        "Details":  [ _User, rank, AddressType, address1, address2, address3, city, State, zip ]
+        "NONE":     [ updated_at, UpdatedBy, created_at, CreatedBy ]
+      actions:
+          _save: -
+          _save_and_add: -
+          _save_and_list: -
+          _list: -
+          _delete: -

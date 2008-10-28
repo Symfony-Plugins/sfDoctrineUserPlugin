@@ -1,0 +1,45 @@
+sfUserImAccount:
+  tableName:                sf_user_im_account
+  package:                  sfDoctrineUserPlugin.lib.model.doctrine
+  actAs:
+    Timestampable:
+    Userstampable:
+  columns:
+    id:
+      type: integer
+      length: 4
+      primary: true
+      autoincrement: true
+    user_id:
+      type: integer
+      length: 4
+    im_account_type_id:
+      type: integer
+      length: 4
+    nickname:
+      type:                 string
+      length:                 128
+    rank:
+      type: integer
+      length: 2
+      default: 1
+    deleted_at:
+      type:                 timestamp
+    deleted_by_user_id:
+      type: integer
+      length: 4
+  relations:
+    User:
+      class: sfUserUser
+      foreignAlias: ImAccounts
+      local: user_id
+      foreign: id
+    ImAccountType:
+      class: sfUserImAccountType
+      local: im_account_type_id
+      foreign: id
+    DeletedBy:
+      class: sfUserUser
+      local: deleted_by_user_id
+      foreign: id
+      foreignAlias: sfUserImAccountDeletedBy
