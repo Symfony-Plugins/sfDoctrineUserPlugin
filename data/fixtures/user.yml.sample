@@ -1,0 +1,79 @@
+---
+sfUserUser:
+  DefaultUser:
+    sfGuardUser: adminUser
+    first_name: Default
+    last_name: User
+    updated_at: today
+    created_at: today
+
+---
+sfUserPhone:
+  DefaultUserPhone:
+    User: DefaultUser
+    PhoneType: PhoneCell
+    number: '5555555555'
+    extension: 123
+    rank: 1
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  DefaultUserPhone2:
+    User: DefaultUser
+    PhoneType: PhoneHome
+    number: '5555555555'
+    extension: 456
+    rank: 2
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+
+---
+sfUserAddress:
+  DefaultUserAddress:
+    User: DefaultUser
+    AddressType: AddressHome
+    address1: 123 Street Place
+    address2: Building 2
+    address3: Apt. 123
+    city: New York
+    State: NEWYORK
+    zip: 12345
+    rank: 1
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  DefaultUserAddress2:
+    User: DefaultUser
+    AddressType: AddressHome
+    address1: 456 Street Drive
+    address2: Building 5
+    address3: Apt. 123
+    city: New York
+    State: CALIFORNIA
+    zip: 12345
+    rank: 2
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+
+---
+sfUserEmailAddress:
+  DefaultUserEmail:
+    User: DefaultUser
+    address: 'email@aol.com'
+    rank: 1
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+  DefaultUserEmail2:
+    User: DefaultUser
+    address: 'email2@aol.com'
+    rank: 2
+    CreatedBy: DefaultUser
+    UpdatedBy: DefaultUser
+
+---
+sfUserImAccount:
+  DefaultUserIm:
+    User: DefaultUser
+    ImAccountType: AIM
+    nickname: screenname
+    rank: 1
+    UpdatedBy: DefaultUser
+    CreatedBy: DefaultUser

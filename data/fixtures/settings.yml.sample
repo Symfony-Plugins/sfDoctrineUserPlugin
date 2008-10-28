@@ -1,0 +1,465 @@
+---
+sfUserAddressType:
+  AddressHome:
+    name: Home
+  AddressBusiness:
+    name: Business
+  AddressPOBox:
+    name: P.O. Box
+
+---
+sfUserCreditCardType:
+  AMEX:
+    is_accepted: true
+    code: A
+    abbreviation: amex
+    name: American Express
+  VISA:
+    is_accepted: true
+    code: V
+    abbreviation: visa
+    name: American Visa
+  MASTERCARD:
+    is_accepted: true
+    code: M
+    abbreviation: mc
+    name: Mastercard
+  DISCOVER:
+    is_accepted: true
+    code: D
+    abbreviation: disc
+    name: Discover
+
+---
+sfUserImAccountType:
+  AIM:
+    name: AIM
+  IRC:
+    name: IRC
+  Yahoo:
+    name: Yahoo Messenger
+  IRC:
+    name: IRC
+  ICQ:
+    name: ICQ
+  Google:
+    name: Google Talk
+  MSN:
+    name: MSN
+
+---
+sfUserPhoneType:
+  PhoneHome:
+    name: Home
+  PhoneBusiness:
+    name: Business
+  PhoneCell:
+    name: Celluar
+  PhonePager:
+    name: Pager
+  PhoneFax:
+    name: Fax
+
+---
+sfUserCountry:
+  UnitedStates:
+    name: UNITED STATES
+    abbreviation: US
+    display: true
+  Canada:
+    name: CANADA
+    abbreviation: CA
+    display: false
+
+---
+sfUserState:
+  ALABAMA:
+    name: ALABAMA
+    abbreviation: AL
+    Country: UnitedStates
+    display: false
+  ALASKA:
+    name: ALASKA
+    abbreviation:  AK
+    Country: UnitedStates
+    display: false
+  AMERICANSAMOA:
+    name: AMERICAN SAMOA
+    abbreviation: AS
+    Country: UnitedStates
+    display: false
+  ARIZONA:
+    name: ARIZONA
+    abbreviation: AZ
+    Country: UnitedStates
+    display: false
+  ARKANSAS:
+    name: ARKANSAS
+    abbreviation: AR
+    Country: UnitedStates
+    display: false
+  CALIFORNIA:
+    name: CALIFORNIA
+    abbreviation: CA
+    Country: UnitedStates
+    display: true
+  COLORADO:
+    name: COLORADO
+    abbreviation: CO
+    Country: UnitedStates
+    display: false
+  CONNECTICUT:
+    name: CONNECTICUT
+    abbreviation: CT
+    Country: UnitedStates
+    display: false
+  DELAWARE:
+    name: DELAWARE
+    abbreviation: DE
+    Country: UnitedStates
+    display: false
+  DISTRICTOFCOLUMBIA:
+    name: DISTRICT OF COLUMBIA
+    abbreviation: DC
+    Country: UnitedStates
+    display: false
+  FEDERATEDSTATESOFMICRONESIA:
+    name: FEDERATED STATES OF MICRONESIA
+    abbreviation: FM
+    Country: UnitedStates
+    display: false
+  FLORIDA:
+    name: FLORIDA
+    abbreviation: FL
+    Country: UnitedStates
+    display: false
+  GEORGIA:
+    name: GEORGIA
+    abbreviation: GA
+    Country: UnitedStates
+    display: false
+  GUAM:
+    name: GUAM
+    abbreviation: GU
+    Country: UnitedStates
+    display: false
+  HAWAII:
+    name: HAWAII
+    abbreviation:  HI
+    Country: UnitedStates
+    display: false
+  IDAHO:
+    name: IDAHO
+    abbreviation: ID
+    Country: UnitedStates
+    display: false
+  ILLINOIS:
+    name: ILLINOIS
+    abbreviation: IL
+    Country: UnitedStates
+    display: false
+  INDIANA:
+    name: INDIANA
+    abbreviation: IN
+    Country: UnitedStates
+    display: false
+  IOWA:
+    name: IOWA
+    abbreviation: IA
+    Country: UnitedStates
+    display: false
+  KANSAS:
+    name: KANSAS
+    abbreviation:  KS
+    Country: UnitedStates
+    display: false
+  KENTUCKY:
+    name: KENTUCKY
+    abbreviation: KY
+    Country: UnitedStates
+    display: false
+  LOUISIANA:
+    name: LOUISIANA
+    abbreviation: LA
+    Country: UnitedStates
+    display: false
+  MAINE:
+    name: MAINE
+    abbreviation: ME
+    Country: UnitedStates
+    display: false
+  MARSHALLISLANDS:
+    name: MARSHALL ISLANDS
+    abbreviation: MH
+    Country: UnitedStates
+    display: false
+  MARYLAND:
+    name: MARYLAND
+    abbreviation: MD
+    Country: UnitedStates
+    display: false
+  MASSACHUSETTS:
+    name: MASSACHUSETTS
+    abbreviation: MA
+    Country: UnitedStates
+    display: false
+  MICHIGAN:
+    name: MICHIGAN
+    abbreviation: MI
+    Country: UnitedStates
+    display: false
+  MINNESOTA:
+    name: MINNESOTA
+    abbreviation: MN
+    Country: UnitedStates
+    display: false
+  MISSISSIPPI:
+    name: MISSISSIPPI
+    abbreviation: MS
+    Country: UnitedStates
+    display: false
+  MISSOURI:
+    name: MISSOURI
+    abbreviation: MO
+    Country: UnitedStates
+    display: false
+  MONTANA:
+    name: MONTANA
+    abbreviation: MT
+    Country: UnitedStates
+    display: false
+  NEBRASKA:
+    name: NEBRASKA
+    abbreviation: NE
+    Country: UnitedStates
+    display: false
+  NEVADA:
+    name: NEVADA
+    abbreviation:  NV
+    Country: UnitedStates
+    display: false
+  NEWHAMPSHIRE:
+    name: NEW HAMPSHIRE
+    abbreviation: NH
+    Country: UnitedStates
+    display: false
+  NEWJERSEY:
+    name: NEW JERSEY
+    abbreviation: NJ
+    Country: UnitedStates
+    display: false
+  NEWMEXICO:
+    name: NEW MEXICO
+    abbreviation: NM
+    Country: UnitedStates
+    display: false
+  NEWYORK:
+    name: NEW YORK
+    abbreviation: NY
+    Country: UnitedStates
+    display: true
+  NORTHCAROLINA:
+    name: NORTH CAROLINA
+    abbreviation: NC
+    Country: UnitedStates
+    display: false
+  NORTHDAKOTA:
+    name: NORTH DAKOTA
+    abbreviation: ND
+    Country: UnitedStates
+    display: false
+  NORTHERNMARIANAISLANDS:
+    name: NORTHERN MARIANA ISLANDS
+    abbreviation: MP
+    Country: UnitedStates
+    display: false
+  OHIO:
+    name: OHIO
+    abbreviation: OH
+    Country: UnitedStates
+    display: false
+  OKLAHOMA:
+    name: OKLAHOMA
+    abbreviation: OK
+    Country: UnitedStates
+    display: false
+  OREGON:
+    name: OREGON
+    abbreviation: OR
+    Country: UnitedStates
+    display: false
+  PALAU:
+    name: PALAU
+    abbreviation: PW
+    Country: UnitedStates
+    display: false
+  PENNSYLVANIA:
+    name: PENNSYLVANIA
+    abbreviation: PA
+    Country: UnitedStates
+    display: false
+  PUERTORICO:
+    name: PUERTO RICO
+    abbreviation: PR
+    Country: UnitedStates
+    display: false
+  RHODEISLAND:
+    name: RHODE ISLAND
+    abbreviation: RI
+    Country: UnitedStates
+    display: false
+  SOUTHCAROLINA:
+    name: SOUTH CAROLINA
+    abbreviation: SC
+    Country: UnitedStates
+    display: false
+  SOUTHDAKOTA:
+    name: SOUTH DAKOTA
+    abbreviation: SD
+    Country: UnitedStates
+    display: false
+  TENNESSEE:
+    name: TENNESSEE
+    abbreviation: TN
+    Country: UnitedStates
+    display: false
+  TEXAS:
+    name: TEXAS
+    abbreviation: TX
+    Country: UnitedStates
+    display: false
+  UTAH:
+    name: UTAH
+    abbreviation: UT
+    Country: UnitedStates
+    display: false
+  VERMONT:
+    name: VERMONT
+    abbreviation: VT
+    Country: UnitedStates
+    display: false
+  VIRGINISLANDS:
+    name: VIRGIN ISLANDS
+    abbreviation: VI
+    Country: UnitedStates
+    display: false
+  VIRGINIA:
+    name: VIRGINIA
+    abbreviation: VA
+    Country: UnitedStates
+    display: false
+  WASHINGTON:
+    name: WASHINGTON
+    abbreviation: WA
+    Country: UnitedStates
+    display: false
+  WESTVIRGINIA:
+    name: WEST VIRGINIA
+    abbreviation: WV
+    Country: UnitedStates
+    display: false
+  WISCONSIN:
+    name: WISCONSIN
+    abbreviation: WI
+    Country: UnitedStates
+    display: false
+  WYOMING:
+    name: WYOMING
+    abbreviation: WY
+    Country: UnitedStates
+    display: false
+  ArmedForcesAfrica:
+    name: Armed Forces Africa
+    abbreviation: AE
+    Country: UnitedStates
+    display: false
+  ArmedForcesAmericas:
+    name: Armed Forces Americas
+    abbreviation: AA
+    Country: UnitedStates
+    display: false
+  ArmedForcesCanada:
+    name: Armed Forces Canada
+    abbreviation: AE
+    Country: UnitedStates
+    display: false
+  ArmedForcesEurope:
+    name: Armed Forces Europe
+    abbreviation: AE
+    Country: UnitedStates
+    display: false
+  ArmedForcesMiddleEast:
+    name: Armed Forces Middle East
+    abbreviation: AE
+    Country: UnitedStates
+    display: false
+  ArmedForcesPacific:
+    name: Armed Forces Pacific
+    abbreviation: AP
+    Country: UnitedStates
+    display: false
+  ALBERTA:
+    name: ALBERTA
+    abbreviation: AB
+    Country: Canada
+    display: false
+  BRITISHCOLUMBIA:
+    name: BRITISH COLUMBIA
+    abbreviation: BC
+    Country: Canada
+    display: false
+  MANITOBA:
+    name: MANITOBA
+    abbreviation: MB
+    Country: Canada
+    display: false
+  NEWBRUNSWICK:
+    name: NEW BRUNSWICK
+    abbreviation: NB
+    Country: Canada
+    display: false
+  NEWFOUNDLANDANDLABRADOR:
+    name: NEWFOUNDLAND AND LABRADOR
+    abbreviation: NL
+    Country: Canada
+    display: false
+  NOVASCOTIA:
+    name: Nova  Scotia
+    abbreviation: NS
+    Country: Canada
+    display: false
+  NORTHWESTTERRITORIES:
+    name: NORTHWEST TERRITORIES
+    abbreviation: NT
+    Country: Canada
+    display: false
+  NUNAVUT:
+    name: NUNAVUT
+    abbreviation: NU
+    Country: Canada
+    display: false
+  ONTARIO:
+    name: ONTARIO
+    abbreviation: ON
+    Country: Canada
+    display: false
+  PRINCEEDWARDISLAND:
+    name: PRINCE EDWARD ISLAND
+    abbreviation: PE
+    Country: Canada
+    display: false
+  QUEBEC:
+    name: QUEBEC
+    abbreviation: QC
+    Country: Canada
+    display: false
+  SASKATCHEWAN:
+    name: SASKATCHEWAN
+    abbreviation: SK
+    Country: Canada
+    display: false
+  YUKON:
+    name: YUKON
+    abbreviation: YT
+    Country: Canada
+    display: false

@@ -1,7 +1,0 @@
-sfUserUser:
-  DefaultUser:
-    sfGuardUser: adminUser
-    first_name: Default
-    last_name: User
-    updated_at: today
-    created_at: today

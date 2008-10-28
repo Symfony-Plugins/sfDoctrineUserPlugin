@@ -1,8 +1,0 @@
-sfUserImAccount:
-  DefaultUserIm:
-    User: DefaultUser
-    ImAccountType: AIM
-    nickname: screenname
-    rank: 1
-    UpdatedBy: DefaultUser
-    CreatedBy: DefaultUser
